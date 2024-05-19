@@ -1,10 +1,11 @@
 import React from 'react'
-import { useParams, Link, useNavigate } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
+import '../index.css'
 
-const PostPage = ({posts, handleDelete, handleBack}) => {
+
+const PostPage = ({posts, handleDelete, handleBack, handleEdit}) => {
     const {id} = useParams()
     const post = posts.find(post => (post.id).toString() === id);   
-    const nav = useNavigate()
   return (
     <main className="PostPage">
         <button className='backBtn' onClick={handleBack}>&lt;</button>
@@ -24,6 +25,7 @@ const PostPage = ({posts, handleDelete, handleBack}) => {
             }
         </article>
         <button className='del' onClick={()=>handleDelete(post.id)}>Delete Thread</button>
+        <Link to={`/edit/${post.id}`}><button className="edit">Edit Post</button></Link>
     </main>
   )
 }
