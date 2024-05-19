@@ -17,6 +17,8 @@ Welcome to the Threads Social Media App! This is a simple yet functional social 
 - See all threads
 - Filter out threads
 - Responsive design
+- Edit threads
+- View Threads
 
 ## Demo
 
