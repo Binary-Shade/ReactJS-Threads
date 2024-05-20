@@ -304,3 +304,8 @@ body {
   color: rgb(0, 0, 0);
   font-size: 0.8rem;
 }
+
+.himg {
+  position: absolute;
+  right: 10px;
+}

@@ -12,6 +12,7 @@ import Footer from './pages/Footer'
 import PostPage from './pages/PostPage'
 import api from './api/axios'
 import EditPage from './pages/EditPage'
+import useWindow from './hooks/useWindow'
 
 function App() {
   const [editTitle, setEditTitle] = useState('')
@@ -22,6 +23,7 @@ function App() {
   const [postTitle, setPostTitle] = useState('')
   const [postMsg, setPostMsg] = useState('')
   const navigator = useNavigate()
+  const {width, height} = useWindow()
   const about = 'Threads is a social media application made by binary-shade . You can post your ideas and thoughts as a thread. we protect your privacy and data. Threads is made by ReactJS .We are eagerly waiting for your threads.'
 
   const handleSubmit = async (e) =>{
@@ -102,6 +104,8 @@ function App() {
       <div className="App">
         <Header
         title = {'Threads'}
+        width={width}
+        height={height}
       />
       <Nav 
         search = {search}
