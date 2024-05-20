@@ -1,40 +1,46 @@
 {
   "posts": [
     {
-      "id": "1",
-      "postTitle": "pizza thread",
-      "dateTime": "2024 May 23, 1:00 AM",
-      "message": "I love eating pizza"
+      "id": 1,
+      "postTitle": "ommbu thread",
+      "dateTime": "2024 May 23, 2:00 AM",
+      "message": "Burgers are the best"
     },
     {
-      "id": "2",
+      "id": 2,
       "postTitle": "burger thread",
       "dateTime": "2024 May 23, 2:00 AM",
       "message": "Burgers are the best"
     },
     {
-      "id": "3",
+      "id": 3,
       "postTitle": "sushi thread",
-      "dateTime": "2024 May 23, 3:00 AM",
-      "message": "Sushi is my favorite food"
+      "dateTime": "2024 May 20, 12:29:48 PM",
+      "message": "Sushi is my favorite foodie"
     },
     {
-      "id": "4",
+      "id": 5,
       "postTitle": "pasta thread",
       "dateTime": "2024 May 19, 10:51:39 PM",
       "message": "I can't get enough of pasta"
     },
     {
-      "id": "5",
-      "postTitle": "salad thread",
-      "dateTime": "2024 May 23, 5:00 AM",
-      "message": "Salads are so refreshing"
+      "id": 6,
+      "postTitle": "ice cream threads",
+      "dateTime": "2024 May 20, 12:31:14 PM",
+      "message": "Ice lick the cream is the perfect dessert "
     },
     {
-      "id": "6",
-      "postTitle": "ice cream threads",
-      "dateTime": "2024 May 19, 10:57:16 PM",
-      "message": "Ice lick the cream is the perfect dessert blow it smoothly"
+      "id": 7,
+      "postTitle": "post 2",
+      "dateTime": "2024 May 20, 12:31:37 PM",
+      "message": "thread is thread"
+    },
+    {
+      "id": 8,
+      "postTitle": "wer",
+      "dateTime": "2024 May 20, 12:33:45 PM",
+      "message": "ser"
     }
   ]
 }
